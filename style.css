@@ -1,0 +1,451 @@
+/*Montserrat Regular, bold, light
+GoodDog cool
+
+
+
+Myriad Pro Regular*/
+/* -=-=-=-=  google font -=-=-=-=-=-=*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@font-face { 
+font-family: 'GoodDog Cool';
+src: url('GOODDC__.TTF') format('truetype');
+}
+
+/*
+	-=-=-=-=-=-=-=== common css -=-=-=-=-=-=-=-=-
+*/
+* {
+	margin:0;
+	padding: 0;
+}
+img {
+	width: 100%;
+	height:auto;
+}
+body {
+	background-image:url('images/bgmainimg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.single-test h2, 
+.header-info-text p:first-child,
+.teadition-title h2, 
+.ted-info h2,
+.ted-info span,
+.des-info h2,
+.discover-title h2,
+.descover-info h4,
+.descover-info h4,
+.descover-info p span,
+.book-title h2,
+.des-menu-title h2,
+.social-section-area h4 {
+	font-family: 'GoodDog Cool';
+}
+.top-section ul li a,
+.top-section .header-title h2,
+.header-info-text p:first-child,
+.teadition-title h2,
+.teadition-title h2,
+.ted-info h2,
+.des-info h2,
+.des-menu-title h2 {
+	color:#afc67b;
+}
+.discover-title h2,
+.discover-title h3,
+.descover-info h4,
+.descover-info p,
+.book-title h2,
+.about-info ,
+.about-info ul li a {
+	color:#e5e5e5;
+}
+/*
+	-=-=-=-=-=-=-=== HEADER SECTION -=-=-=-=-=-=-=-=-
+*/
+.header-area {
+	background-image: url('images/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.top-section {
+	color:#9baf6d;
+	float:right;
+	overflow: hidden;
+	padding:20px 0;
+}
+.menu-icon {
+	background:#f86804c9;
+	display: none;
+}
+.menu-icon i {
+	font-size:25px;
+	color:#fff;
+	padding:5px;
+}
+.menu {}
+.top-section  ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
+
+}
+.top-section ul li {
+	margin: 20px;
+}
+.top-section ul li a {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.top-section ul li a:hover {}
+.top-section .logo {
+	width: 165px;
+	margin-left:auto;
+	margin-right:15%;
+	padding: 50px 0;
+}
+.top-section .logo a img{
+	width:100%;
+	height:auto;
+}
+.top-section .header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px 0;
+}
+.top-section .header-title h2 {
+	font-size: 50px;
+}
+.top-section .header-title .header-titile-bold {
+	font-weight: 700;
+	font-size: 60px;
+}
+.header-title a {
+    font-size: 25px;
+    color: #afc67b;
+    background: #515747;
+    padding: 10px 25px;
+    margin: 11% 12% 22%;
+}
+/*
+	-=-=-=-=-=-=-=== HEADER SECTION -=-=-=-=-=-=-=-=-
+*/
+.header-info-section {}
+ .header-info-text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.header-info-text {
+	margin-left: 10%;
+}
+.header-info-text p:first-child {
+	font-size: 30px;
+}
+.header-info-text p:last-child {
+	color:#fff;
+	 font-weight: 300;
+	 font-size: 20px;
+}
+.eader-info-img {}
+.eader-info-img img {}
+/*
+	-=-=-=-=-=-=-=== new  test section -=-=-=-=-=-=-=-=-
+*/
+
+.test-section {
+	background:#45493b;
+}
+.single-area {
+	padding:90px 0;
+}
+.single-test h2 {
+	color:#eaeaea;
+	padding: 25px 0;
+	font-size: 30px;
+}
+.single-test p {
+	color:#bebfbb;
+	font-weight: 300;
+	font-size: 15px;
+}
+.single-img {
+	width: 80px;
+	height: 60px;
+}
+.single-img .first-img {
+	width: 57%;
+}
+/*
+	-=-=-=-=-=-=-=== traditional section -=-=-=-=-=-=-=-=-
+*/
+.treadition-section {
+	margin-top:90px;
+}
+.tradition-area {
+	background:#45493b;
+	overflow: hidden;
+}
+.tradition-area .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.teadition-title {
+	text-align: center;
+	padding:60px 0;
+
+}
+.teadition-title h3 {
+	color:#eaeaea;
+	font-weight: 300;
+
+}
+.ted-info {}
+.ted-info p {
+	color:#eaeaea;
+	font-weight: 300;
+}
+.ted-info span {
+	color:#eaeaea;
+}
+.ted-info {
+	padding:18%;
+	text-align: center;
+}
+.ted-info p {
+	padding:5px 0;
+}
+.ted-info span {
+	font-size: 25px;
+}
+.tradition-des {
+	background:#3f4238;
+	margin-top:90px;
+	padding:90px 0;
+}
+.des-info {
+	text-align: center;
+}
+.des-info p {
+	color:#eaeaea;
+	padding:0% 15%;
+}
+.des-icon {
+	width: 70px;
+	height: 75px;
+	margin:0 auto;
+}
+.des-icon img {}
+/*
+	-=-=-=-=-=-=-=== descover section -=-=-=-=-=-=-=-=-
+*/
+.descover-section {
+	background-image: url('images/6bgimg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.descover-area {
+	padding-top:230px;
+	padding-bottom:880px;
+}
+.descover {
+	background:#3f4238;
+	padding:50px 0;
+}
+.discover-title {
+	text-align: center;
+}
+
+.descover-item {
+	display: flex;
+	margin:30px 0;
+}
+.descover-icon {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descover-icon img {
+	width: 100%;
+	height: auto;
+}
+.descover-info {
+	padding: 3px 15px;
+}
+
+/*
+	-=-=-=-=-=-=-=== Book section -=-=-=-=-=-=-=-=-
+*/
+.book-section {
+	padding:50px 0;
+}
+.book-title {}
+.book-title h2 {
+	text-align: center;
+}
+.book-input-item {
+	margin-bottom:40px;
+}
+.book-input-item label {
+	color:#fff;
+	font-weight: 700;
+}
+.book-input-item input {
+	border:2px solid #fff !important;
+	border-radius:5px;
+	background-color:#262626;
+	padding:3px 5px;
+	color:#fff;
+	width: 200px;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.submit-button {
+	text-align: center;
+}
+input[type="submit"] {
+	font-weight: 700;
+}
+
+/*input[type="date"]::-webkit-calendar-picker-indicator {
+    color:#fff;
+    opacity: 1;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+/*#timepicker:before {
+content:'Time:';
+margin-right:.6em;
+color:#9d9d9d;
+}*/
+
+
+
+/*
+	-=-=-=-=-=-=-=== descover menu section -=-=-=-=-=-=-=-=-
+*/
+
+.descover-menu-section {
+	background:#383b32;
+	padding:50px 100px 100px;
+}
+.des-menu-title {
+	text-align: center;
+}
+.des-menu-title h2 {
+	font-size: 50px;
+}
+.des-menu-title h3 {
+	color:#eaeaea;
+	font-size: 30px;
+	
+}
+.single-menu {
+	margin:10px;
+}
+.single-menu img {}
+.single-menu-info {
+	background-color:#e5e5e5;
+	padding:20px;
+}
+.single-menu-info p {}
+.single-menu-info a {
+	color:#555555;
+	border-bottom:5px solid #afc67b;
+}
+.single-menu-info a:hover {
+	text-decoration:none;
+}
+
+/*
+	-=-=-=-=-=-=-=== social link section -=-=-=-=-=-=-=-=-
+*/
+.social-link-section {
+	padding:40px 0;
+}
+.social-section-area {
+	color:#8ea065;
+	text-align: center;
+}
+.social-section-area p {
+	width: 70%;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+.social-section-area h4 {
+	font-size: 30px;
+}
+.socil-info-icon {
+	width: 60px;
+	height: 60px;
+	margin:0 auto;
+}
+.socil-info-icon img {}
+.social-icon {}
+.social-icon ul {
+	justify-content: center;
+}
+.social-icon ul li {
+	width: 50px;
+	height: 50px;
+	background:#fff;
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:12px;
+}
+.social-icon ul li a {}
+.social-icon ul li a i {
+	font-size: 30px;
+	color:#212121;
+}
+.social-icon ul li:hover {
+	background:#8ea065;
+}
+.social-icon ul li:hover  i {
+	color:#fff !important;
+}
+/*
+	-=-=-=-=-=-=-=== about section -=-=-=-=-=-=-=-=-
+*/
+.about-section {
+	background:#33362f;
+	padding:70px 0;
+}
+.about-info h2{
+	font-weight: 700;
+	padding-bottom:50px;
+}
+.about-info p {}
+.about-info ul {
+	list-style-type: none;
+}

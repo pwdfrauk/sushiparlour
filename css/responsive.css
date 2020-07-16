@@ -1,0 +1,130 @@
+@media (max-width:768px ) {
+	.menu-icon {
+    display: block;
+    width: 100%;
+    padding: 5px 30px 5px;
+	}
+	.top-section ul {
+    background: #3039269e;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    display: none;
+	}
+	.top-section ul li a {
+		color:#fff;
+	}
+	.top-section .logo {
+    width: 100px;
+    margin: 0 auto;
+    padding: 0px 0;
+    background: #080808ad;
+    border-radius: 8px;
+    padding: 11px 15px;
+	}
+	.top-section .header-title h2 {
+    font-size: 25px;
+	}
+	.top-section .header-title .header-titile-bold {
+    font-weight: 700;
+    font-size: 30px;
+	}
+	.header-title a {
+	padding: 11px 8px;
+    margin: 7% 4% 6%;
+    font-size: 20px;
+	}
+	.header-info-text p:last-child {
+    font-size: 15px;
+	}
+	.header-info-section {
+		position: relative;
+	}
+	.header-info-img img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		overflow: hidden;
+		z-index: -1;
+	}
+	.header-info-section .col-md-6 {
+		position: static;
+	}
+	.header-info-img img,
+	.header-area {
+    opacity: .8;
+	}
+	.single-test {
+		text-align: center;
+	}
+	.single-img{
+		margin:0 auto;
+	}
+	.single-area,
+	.teadition-title,
+	.tradition-des {
+    padding: 15px 0;
+	}
+	.ted-info {
+    padding: 8%;
+	}
+	.des-info p {
+    padding: 1% 5%;
+	}
+	.descover-item {
+    display: flex;
+    margin: 30px 0;
+    display: block !important;
+	}
+	.ted-img {
+		margin:20px 0;
+	}
+	.descover-icon {
+    margin: 0 auto;
+	}
+	.descover-info {
+    text-align: center;
+    padding: 8px 10px;
+	}
+	.book-input-item {
+    margin-bottom: 20px;
+	}
+	.book-input-item input {
+    border: 2px solid #fff !important;
+    border-radius: 5px;
+    background-color: #262626;
+    padding: 3px 5px;
+    color: #fff;
+    width: 80%;
+	}
+	form {
+		text-align: center;
+	}
+	input[type="submit"]  {
+		width: 200px;
+	}
+	.descover-area {
+    padding-top: 186px;
+    padding-bottom: 186px;
+	}
+	.descover-menu-section {
+    background: #383b32;
+    padding: 50px 30px 50px;
+	}
+	.single-menu {
+    margin: 20px 10px;
+	}
+	.about-section {
+    padding: 20px 0;
+	}
+	.about-info h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
+	}
+	.about-info {
+		text-align: center;
+	}
+
+
+}
